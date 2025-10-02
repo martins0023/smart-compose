@@ -1,0 +1,38 @@
+{
+  "name": "smart-social-ai-companion",
+  "version": "2.0.0",
+  "description": "Revolutionary AI-powered social media assistant with multimodal capabilities - Chrome Built-in AI Challenge 2025 Entry",
+  "main": "build.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --watch",
+    "zip": "node build.js zip",
+    "clean": "rm -rf dist packages",
+    "test": "echo 'Tests not implemented yet'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "ai",
+    "social-media",
+    "multimodal",
+    "gemini-nano",
+    "privacy-first",
+    "whatsapp",
+    "twitter",
+    "instagram",
+    "linkedin",
+    "discord",
+    "chrome-built-in-ai"
+  ],
+  "author": "Smart Social AI Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.1.12",
+    "@types/node": "^24.5.2",
+    "archiver": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
