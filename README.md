@@ -42,7 +42,7 @@ This project is built around the principle of **privacy-by-design**, leveraging 
 
 ### 3\. User Experience (UX)
 
-  * **Sidebar Interface:** A non-intrusive, modal box UI provides a dedicated workspace for AI interactions without disrupting the native chat environment.
+  * **Interface:** A non-intrusive, modal box UI provides a dedicated workspace for AI interactions without disrupting the native chat environment.
   * **Targeted Activation:** The extension only activates and extracts context when the user highlights a specific chat or text.
 
 -----
@@ -228,14 +228,14 @@ This project is built around the principle of **privacy-by-design**, leveraging 
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [Your-Repo-Link]
-    cd contextual-quick-reply-copilot
+    git clone https://github.com/martins0023/smart-compose.git
+    cd smart-compose
     ```
 2.  **Load Extension:**
       * Open Chrome and go to `chrome://extensions`.
       * Enable **Developer mode** using the toggle in the top-right corner.
       * Click the **Load unpacked** button.
-      * Select the entire project directory (`contextual-quick-reply-copilot`).
+      * Select the `dist` folder
 3.  **Testing:**
       * A new icon will appear in your toolbar.
       * Navigate to a supported chat application (e.g., open WhatsApp Web).
@@ -246,7 +246,7 @@ This project is built around the principle of **privacy-by-design**, leveraging 
 ## 👥 Contributors
 
   * Miracle Oladapo - **lead dev**
-  * Omotosho Ayomikun - **contributor**
+  * Omotosho Ayomikun - **co-developer**
 
 -----
 
